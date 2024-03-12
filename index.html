@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Front-End</title>
+
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+<!-- HEADER-->
+    <header class="header">
+        <img class="header__logo" src="./assets/img/logos/adl.png" alt="">
+        <p class="header__brand">Blog Frontend</p>
+    </header>
+
+    <main>
+        <!--SECCIÓN NOVEDADES-->
+        <section class="novedades">
+            <h2 class="novedades__title">Novedades</h2>
+            <!--NOVEDAD PRINCIPAL-->
+            <div class="novedades__container">
+                <div class="novedades__principal">
+                    <img class="novedades__principal__image" src="./assets/img/posts/bootstrap.png" alt="">
+                    <p class="novedades__principal__date">24 Noviembre, 2022</p>
+                    <p class="novedades__principal__paragraph">Modifica el tema de Bootstrap con variables CSS</p>
+                    <div class="dlatam__container">
+                        <img class="dlatam__container__image" src="./assets/img/logos/adl.png" alt="">
+                        <p class="dlatam__container__name">Desafio Latam</p>
+                    </div>
+                </div>
+                <!--NOVEDAD LATERALES-->
+                <aside class="novedades__aside">
+                    <div class="novedades__aside__box">
+                        <img class="novedades__aside__image" src="./assets/img/posts/Herencia-JS.png" alt="">
+                        <div class="novedades__aside__text">
+                            <p class="text__date">24 Noviembre, 2022</p>
+                            <p class="text__name">Herencia en JavaScript</p>
+                            <div class="dlatam__container">
+                                <img class="dlatam__container__image--small" src="./assets/img/logos/adl.png" alt="">
+                                <p class="dlatam__container__name--small">Desafio Latam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="novedades__aside__box">
+                        <img class="novedades__aside__image" src="./assets/img/posts/Etiquetas-semánticas-HTML.png"
+                            alt="">
+                        <div class="novedades__aside__text">
+                            <p class="text__date">24 Noviembre, 2022</p>
+                            <p class="text__name">Etiquetas semánticas</p>
+                            <div class="dlatam__container">
+                                <img class="dlatam__container__image--small" src="./assets/img/logos/adl.png" alt="">
+                                <p class="dlatam__container__name--small">Desafio Latam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="novedades__aside__box">
+                        <img class="novedades__aside__image" src="./assets/img/posts/reactComponents.png" alt="">
+                        <div class="novedades__aside__text">
+                            <p class="text__date">24 Noviembre, 2022</p>
+                            <p class="text__name">Componentes React</p>
+                            <div class="dlatam__container">
+                                <img class="dlatam__container__image--small" src="./assets/img/logos/adl.png" alt="">
+                                <p class="dlatam__container__name--small">Desafio Latam</p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!--SECCIÓN CARDS POPULARES-->
+        <section id="populares" class="post">
+            <div class="post__container">
+                <h2 class="post__title">Populares</h2>
+                <div class="post__cards">
+                    <div class="cards">
+                        <div class="cards__image__container">
+                            <img class="card__image" src="./assets/img/posts/vue-components.png" alt="">
+                        </div>
+                        <p class="text__date">24 Noviembre, 2022</p>
+                        <p class="text__name">Componentes Vue</p>
+                        <div class="dlatam__container">
+                            <img class="dlatam__container__image--small" src="./assets/img/logos/adl.png" alt="">
+                            <p class="dlatam__container__name--small">Desafio Latam</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="cards__image__container">
+                            <img class="card__image" src="./assets/img/posts/api-js.png" alt="">
+                        </div>
+                        <p class="text__date">24 Noviembre, 2022</p>
+                        <p class="text__name">Consumo de API con JavaScript</p>
+                        <div class="dlatam__container">
+                            <img class="dlatam__container__image--small" src="./assets/img/logos/adl.png" alt="">
+                            <p class="dlatam__container__name--small">Desafio Latam</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="cards__image__container" >
+                            <img class="card__image" src="./assets/img/posts/sass.jpg" alt=""> 
+                        </div>
+                        <p class="text__date">24 Noviembre, 2022</p>
+                        <p class="text__name">CSS reutilizable con Sass</p>
+                        <div class="dlatam__container">
+                            <img class="dlatam__container__image--small" src="./assets/img/logos/adl.png" alt="">
+                            <p class="dlatam__container__name--small">Desafio Latam</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="cards__image__container">
+                            <img class="card__image"" src="./assets/img/posts/bootstrap.png" alt="">
+                        </div>
+                        <p class="text__date">24 Noviembre, 2022</p>
+                        <p class="text__name">Componentes Bootstrap</p>
+                        <div class="dlatam__container">
+                            <img class="dlatam__container__image--small" src="./assets/img/logos/adl.png" alt="">
+                            <p class="dlatam__container__name--small">Desafio Latam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--SECCIÓN CATEGORIAS-->
+            <aside class="categorias">
+                <h2 class="categorias__title">Categorias</h2>
+                <div class="categorias__container categoria__html">
+                    <img class="categorias__image" src="./assets/img/logos/html.png" alt="">
+                    <p class="categorias__text">HTML</ class="categorias__text">
+                </div>
+                <div class="categorias__container categoria__js">
+                    <img class="categorias__image" src="./assets/img/logos/js.png" alt="">
+                    <p class="categorias__text">JavaScript</p>
+                </div>
+                <div class="categorias__container categoria__css">
+                    <img class="categorias__image" src="./assets/img/logos/css.png" alt="">
+                    <p class="categorias__text">CSS</p>
+                </div>
+                <div class="categorias__container categoria__react">
+                    <img class="categorias__image" src="./assets/img/logos/react.png" alt="">
+                    <p class="categorias__text">React</p>
+                </div>
+                <div class="categorias__container categoria__vue">
+                    <img class="categorias__image" src="./assets/img/logos/vue.png" alt="">
+                    <p class="categorias__text">Vue</p>
+                </div>
+                <div class="categorias__container categoria__bs">
+                    <img class="categorias__image" src="./assets/img/logos/bootstrap-logo.png" alt="">
+                    <p class="categorias__text">Bootstrap</p>
+                </div>
+                <p>Ver todas las categorías ></p>
+            </aside>
+        
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__image" src="./assets/img/logos/adl.png" alt="">
+            <p class="footer__name">Blog Frontend</p>
+        </div>
+        <p class="footer__author">Desafio Latam - 2023</p>
+
+    </footer>
+
+</body>
+
+</html>

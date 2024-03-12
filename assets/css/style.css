@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ESTILOS HEADER */
+.header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 3px solid #CCCCCC;
+    padding: 30px 10%;
+}
+
+.header__logo{
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.header__brand{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* ESTILOS SECCIÓN NOVEDADES */
+
+.novedades{
+    padding: 30px 10%;
+    border-bottom: 3px solid #CCCCCC;
+}
+
+.novedades__title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.novedades__container{
+    display: flex;
+    
+}
+
+/* ESTILOS NOVEDADES PRINCIPAL */
+
+.novedades__principal{
+    width: 70%;
+    padding: 10px 10px 0 0;
+
+}
+
+.novedades__principal__image{
+    width: 90%;
+    border-radius: 20px;
+}
+
+.novedades__principal__date{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.novedades__principal__paragraph{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* ESTILO TAG DESAFIO LATAM */
+.dlatam__container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.dlatam__container__image{
+    width: 60px;
+    height: 60px;
+    border-radius: 80px;
+}
+
+.dlatam__container__name{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+/* ESTILO NOVEDADES LATERAL */
+.novedades__aside{
+    width: 40%;
+}
+
+.novedades__aside__box{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.novedades__aside__image{
+    width: 45%;
+    border-radius: 20px;
+}
+
+.text__date{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.text__name{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* ESTILOS TAG DESAFIO LATAM GENERICO */
+.dlatam__container__image--small{
+    width: 40px;
+    border-radius: 60px;
+}
+
+.dlatam__container__name--small{
+    font-size: 1rem;
+}
+
+
+/* ESTILO SECCIÓN POPULARES */
+.post{
+    padding: 30px 10%;
+    display: flex;
+    border-bottom: 3px solid #CCCCCC;
+}
+
+.post__title{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.post__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.cards__image__container{
+    width: 400px;
+    height: 250px;
+    
+}
+
+.card__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* ESTILO GATEGORIAS */
+.categorias{
+    width: 50%;
+    
+}
+
+.categorias__title{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.categorias__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px;
+    width: 350px;
+    
+}
+
+.categorias__text{
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 0 10px;
+}
+
+.categorias__image{
+    width: 70px;
+}
+
+
+/* COLORES CATEGORIAS */
+.categoria__html{
+    background-color: #E93E30;
+    margin-bottom: 25px;
+}
+
+.categoria__js{
+    background-color: #F7E018;
+    margin-bottom: 25px;
+}
+
+.categoria__css{
+    background-color: #299ED5;
+    margin-bottom: 25px;
+}
+
+.categoria__react{
+    background-color: #292C33;
+    margin-bottom: 25px;
+}
+
+.categoria__vue{
+    background-color: #67C770;
+    margin-bottom: 25px;
+}
+
+.categoria__bs{
+    background-color: #563D7C;
+    margin-bottom: 25px;
+}
+
+/* ESTILO FOOTER */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.footer__container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__image{
+    width: 55px;
+    border-radius: 10px;
+}
